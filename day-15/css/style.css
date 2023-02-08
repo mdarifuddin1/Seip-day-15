@@ -1,0 +1,46 @@
+.my-carousel {
+    background: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    animation: Arif 10s infinite 2s;
+
+
+}
+
+
+@keyframes Arif{
+  0%{
+    background: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  20%{
+    background: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  40%{
+    background: url('../images/3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  60%{
+    background: url('../images/4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  80%{
+    background: url('../images/5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  100%{
+    background: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+}
